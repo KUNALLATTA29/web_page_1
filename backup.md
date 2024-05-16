@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Tem</title>
+  <style>
+    .body{
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+    }
+    .main{
+      position: relative;
+    }
+    .hed{
+      position: fixed;
+      top: 0px;
+      display: flex;
+      background-color: white;
+      width: 100%;
+      justify-content: space-between;
+      z-index: 99;
+    }
+    .h1{
+      display: flex;
+      justify-content: space-between;
+      width: 10%;
+      margin-left: 3%;
+    }
+    .h2{
+      display: flex;
+      justify-content: space-evenly;
+      width: 40%;
+      
+    }
+   .text{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+   }
+   .h1 h3{
+    font-size: 21px;
+    font-weight: 100;
+   }
+   .h2 h3{
+    font-size: 21px;
+    font-weight: 100;
+   }
+   .h1 h2{
+    font-weight:bolder;
+   }
+
+   .c1{
+    font-size: 50px;
+    color: white;
+    opacity: 0.6;
+    background-color: rgba(0,0,0,0.8);
+   }
+   .c2{
+    font-size: 50px;
+    color: white;
+   }
+   .projects p{
+    font-size: xx-large;
+   }
+   .projects{
+    width: 96%;
+    height:800px;
+    margin: 2%;
+   }
+   .cards{
+    display: flex;
+    border-top: 1px solid silver;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+   }
+   .box1{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+   }
+   .box2{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   }
+   .cc{
+    width: 20%;
+    background-color: white;
+    height: 80%;
+    border: 2px solid black;
+    margin-top: 50px;
+    position: relative;
+   }
+   .cc img{
+    height: 100%;
+    width: 100%;
+   }
+   .cc h5{
+    position: absolute;
+    top: -25px;
+    width: 120px;
+    height: 40px;
+    padding: 10px;
+    padding-left: 15px;
+    left: 0px;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    font-size: 14px;
+   }
+   .about{
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+   .about p{
+    font-size: xx-large;
+   }
+   .majdoor{
+    border-top: 1px solid silver;
+   }
+   .abtheo{
+    margin-top: 2%;
+    text-align:justify;
+    font-size: 17px;
+   }
+   .pics{
+    height: 400px;
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+   }
+   .zoom{
+    height: 100%;
+    width: 22%;
+   }
+   .zoom1{
+    height: 50%;
+    width: 100%;
+    background-color: orange;
+   }
+   .zoom1 img{
+    height: 100%;
+    width: 100%;
+   }
+   .zoom2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   }
+   .t1{
+    font-size: 25px;
+    margin: 4% 0;
+   }
+   .t2{
+    font-size: 17px;
+    color: silver;
+   }
+   .t3{
+    font-size: 17px;
+   }
+   .t4{
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+   }
+
+   .contact p{
+    font-size: xx-large;
+    margin: 2%;
+   }
+   .contact2{
+    border-top: 1px solid silver;
+    margin: 2%;
+   }
+   .contact2 p{
+    font-size: 18px;
+    margin-left: 0;
+   }
+   .form{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+   }
+   .form input{
+    width: 100%;
+    height: 40px;
+    padding-left:10px ;
+    font-size: 17px;
+   }
+   .form button{
+    width: 12%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+   }
+   .map{
+    margin: 2%;
+    margin-right: 1%;
+   }
+   .map img{
+    width: 100%;
+   }
+  </style>
+</head>
+<body>
+  <div class="main">
+    <img src="back.png" alt="">
+    <div class="hed">
+      <div class="h1">
+        <h2>BR</h2>
+        <h3>Architects</h3>
+      </div>
+      <div class="h2">
+        <h3>Projects</h3>
+        <h3>About</h3>
+        <h3>Contact</h3>
+      </div>
+    </div>
+    <div class="text">
+      <div class="c1">BR</div>
+      <div class="c2">Architects</div>
+    </div>
+  </div>
+  <div class="projects">
+    <p>Projects</p>
+    <div class="cards">
+      <div class="box1">
+        <div class="cc">
+          <img src="h1.png" alt="">
+          <h5>Summer House</h5>
+        </div>
+        <div class="cc">
+          <img src="h2.png" alt="">
+          <h5>Brick House</h5>
+        </div>
+        <div class="cc">
+          <img src="h3.png" alt="">
+          <h5>Renovated</h5>
+        </div>
+        <div class="cc">
+          <img src="h4.png" alt="">
+          <h5>Barn House</h5>
+        </div>
+      </div>
+      <div class="box2">
+        <div class="cc">
+          <img src="h5.png" alt="">
+          <h5>Summer House</h5>
+        </div>
+        <div class="cc">
+          <img src="h6.png" alt="">
+          <h5>Brick House</h5>
+        </div>
+        <div class="cc">
+          <img src="h7.png" alt="">
+          <h5>Renovated</h5>
+        </div>
+        <div class="cc">
+          <img src="h8.png" alt="">
+          <h5>Barn House</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="about">
+    <p>About</p>
+    <div class="majdoor">
+      <div class="abtheo">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis nobis ex pariatur? Porro possimus aperiam quia excepturi aut perspiciatis? Soluta harum neque necessitatibus, natus repellat dolorum itaque dolore voluptates fugiat!
+        Voluptatum culpa eligendi ab corrupti totam non omnis soluta sequi et accusantium, est facere quia quidem ad nesciunt ipsum ullam debitis labore, minima expedita! Assumenda aspernatur itaque ex veniam error?
+        Consectetur nostrum rem laborum mollitia fuga voluptas. Assumenda, optio in reprehenderit tempore soluta ex corrupti, sapiente, quasi pariatur obcaecati placeat natus officia tenetur! Dolorem autem veritatis illo. Consequatur, magni molestias?
+      </div>
+      <div class="pics">
+        <div class="zoom">
+          <div class="zoom1">
+            <img src="m1.png" alt="">
+          </div>
+          <div class="zoom2">
+            <div class="t1">John Doe</div>
+            <div class="t2">CEO & Founder</div>
+            <div class="t3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+            <button class="t4">Contact</button>
+          </div>
+        </div>
+        <div class="zoom">
+          <div class="zoom1">
+            <img src="m2.png" alt="">
+          </div>
+          <div class="zoom2">
+            <div class="t1">Jane Doe</div>
+            <div class="t2">Architect</div>
+            <div class="t3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+            <button class="t4">Contact</button>
+          </div>
+        </div>
+        <div class="zoom">
+          <div class="zoom1">
+            <img src="m3.png" alt="">
+          </div>
+          <div class="zoom2">
+            <div class="t1">Mike Ross</div>
+            <div class="t2">Architect</div>
+            <div class="t3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+            <button class="t4">Contact</button>
+          </div>
+        </div>
+        <div class="zoom">
+          <div class="zoom1">
+            <img src="m4.png" alt="">
+          </div>
+          <div class="zoom2">
+            <div class="t1">Dan Star</div>
+            <div class="t2">Architect</div>
+            <div class="t3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+            <button class="t4">Contact</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="contact">
+    <p>Contact</p>
+    <div class="contact2">
+      <p>Lets get in touch and talk about your next project. </p>
+      <div class="form">
+        <input type="text" placeholder="Name"><br>
+        <input type="email" placeholder="Email"><br>
+        <input type="text" placeholder="Subject"><br>
+        <input type="text" placeholder="Comment"><br>
+        <button>SEND MESSAGE</button>
+      </div>
+    </div>
+  </div>
+  <div class="map">
+    <img src="map.png" alt="">
+  </div>
+  
+</body>
+</html>
